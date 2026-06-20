@@ -28,7 +28,8 @@
     <img id="foto" src="" alt="Foto del producto" onerror="this.style.display='none'">
     <div class="info"><span class="label">Modelo:</span> <span id="modelo"></span></div>
     <div class="info"><span class="label">Tallas disponibles:</span> <span id="tallas"></span></div>
-    <div class="info"><span class="label">Ubicación:</span> <span id="ubicacion"></span></div>
+    <div class="info"><span class="label">Cantidad:</span> <span id="cantidad"></span></div>
+                                                                                
   </div>
 
   <script>
@@ -48,7 +49,7 @@
       document.getElementById('foto').style.display = 'block';
       document.getElementById('modelo').textContent = data.modelo;
       document.getElementById('tallas').textContent = data.tallas;
-      document.getElementById('ubicacion').textContent = data.ubicacion;
+      document.getElementById('data.ubicacion').textContent = data.ubicacion;
       document.getElementById('resultado').style.display = 'block';
     }
 
